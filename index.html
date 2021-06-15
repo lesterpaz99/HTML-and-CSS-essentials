@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>HTML y CSS</title>
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
@@ -13,119 +13,141 @@
 		<link rel="stylesheet" href="./styles/styles.css" />
 	</head>
 	<body>
-		<header class="header">
-			<div class="header__wrapper">
-				<div class="header__content">
-					<h3 class="header__title">Contenido</h3>
-					<nav class="nav">
-						<details class="nav__menu" open>
-							<summary class="menu__summary">Setup</summary>
-							<ol>
-								<li class="nav__links"><a href="#">Google Chrome</a></li>
-								<li class="nav__links"><a href="#">Visual Studio Code</a></li>
-								<li class="nav__links"><a href="#">Figma</a></li>
-								<li class="nav__links"><a href="#">GitHub</a></li>
-							</ol>
-						</details>
-						<details class="nav__menu">
-							<summary class="menu__summary">
-								Conceptos esenciales del desarrollo web
-							</summary>
-							<ol>
-								<li class="nav__links"><a href="#">Qué es HTML</a></li>
-								<li class="nav__links"><a href="#">Etiquetas</a></li>
-								<li class="nav__links"><a href="#">DOM</a></li>
-								<li class="nav__links"><a href="#">Semántica</a></li>
-								<li class="nav__links"><a href="#">Atributos</a></li>
-								<li class="nav__links"><a href="#">Qué es CSS</a></li>
-							</ol>
-						</details>
-					</nav>
-				</div>
-			</div>
-		</header>
-		<main class="main">
-			<div class="main__wrapper">
-				<div class="main__content">
-					<div class="main-section">
-						<h1 class="main-section__title">Curso esencial de HTML y CSS</h1>
-						<p class="main-section__description">
-							Este es el inicio de tu carrera como Desarrollador Web, empezarás
-							aprendiendo HTML y CSS para la creación de contenidos, en el nivel
-							2 aprenderás de componentes y en 3 sobre layouts.
-						</p>
+		<div class="page-wrapper">
+			<div class="page-content">
+				<header class="header">
+					<div class="header__wrapper">
+						<div class="header__content">
+							<h3 class="header__title">Contenido</h3>
+							<nav class="nav">
+								<details class="nav__menu" open>
+									<summary class="menu__summary">Setup</summary>
+									<ol>
+										<li class="nav__links">
+											<a href="#google_chrome">Google Chrome</a>
+										</li>
+										<li class="nav__links">
+											<a href="#visual_studio">Visual Studio Code</a>
+										</li>
+										<li class="nav__links"><a href="#figma">Figma</a></li>
+										<li class="nav__links"><a href="#github">GitHub</a></li>
+									</ol>
+								</details>
+								<details class="nav__menu">
+									<summary class="menu__summary">
+										Conceptos esenciales del desarrollo web
+									</summary>
+									<ol>
+										<li class="nav__links"><a href="#">Qué es HTML</a></li>
+										<li class="nav__links"><a href="#">Etiquetas</a></li>
+										<li class="nav__links"><a href="#">DOM</a></li>
+										<li class="nav__links"><a href="#">Semántica</a></li>
+										<li class="nav__links"><a href="#">Atributos</a></li>
+										<li class="nav__links"><a href="#">Qué es CSS</a></li>
+									</ol>
+								</details>
+							</nav>
+						</div>
 					</div>
-					<section class="setup">
-						<div class="setup-wrapper">
-							<h2 class="section__title">Setup</h2>
-							<div class="item">
-								<img
-									class="item__img"
-									src="./assets/GoogleChrome.png"
-									alt="Google Chrome Icon"
-									loading="lazy"
-								/>
-								<h3 class="item__title">1. Google Chrome</h3>
-								<p class="item__description">
-									Chrome va a ser
-									<span>el navegador que utilizaremos en el curso</span> por su
-									extenso soporte de nuevos estándares y herramientas de
-									desarrollo avanzadas y de amigable uso.
+				</header>
+				<main class="main">
+					<div class="main__wrapper">
+						<div class="main__content">
+							<div class="main-section">
+								<h1 class="main-section__title">
+									Curso esencial de HTML y CSS
+								</h1>
+								<p class="main-section__description">
+									Este es el inicio de tu carrera como Desarrollador Web,
+									empezarás aprendiendo HTML y CSS para la creación de
+									contenidos, en el nivel 2 aprenderás de componentes y en 3
+									sobre layouts.
 								</p>
 							</div>
-							<div class="item">
-								<img
-									class="item__img"
-									src="./assets/VisualStudioCode.png"
-									alt="Visual Studio Icon"
-									loading="lazy"
-								/>
-								<h3 class="item__title">2. Visual Studio Code</h3>
-								<p class="item__description">
-									Visual Studio Code es el
-									<span>editor de texto más popular y potente del mercado</span>
-									actualmente, su fácil uso y la capacidad de extenderlo por
-									medio de plugins lo hace el complemento perfecto para
-									cualquier programador sin importar el lenguaje en el que se
-									desemvuelva.
-								</p>
-							</div>
-							<div class="item">
-								<img
-									class="item__img"
-									src="./assets/Figma.png"
-									alt="Figma Icon"
-									loading="lazy"
-								/>
-								<h3 class="item__title">3. Figma</h3>
-								<p class="item__description">
-									Figma es una la herramienta más popular en la actualidad para
-									entregar diseños a los desarrolladores para su implementación
-									por su <span>fácil uso</span> porque puede ser usado
-									directamente desde el navegador.
-								</p>
-							</div>
-							<div class="item">
-								<img
-									class="item__img"
-									src="./assets/GitHub.png"
-									alt="GitHub Icon"
-									loading="lazy"
-								/>
-								<h3 class="item__title">4. GitHub</h3>
-								<p class="item__description">
-									Así como en Facebook te encuentran tus amigos, en Github te
-									encuentran otras programadoras y programadores de todo el
-									mundo, en vez de subir fotos de tus viajes aquí subes tu
-									código y puedes elegir hacerlo “open source” o guardarlo de
-									manera privada, Github será esencial para almacenar tu futuro
-									portafolio.
-								</p>
+							<section class="setup">
+								<div class="setup-wrapper">
+									<h2 class="section__title">Setup</h2>
+									<div class="item" id="google_chrome">
+										<img
+											class="item__img"
+											src="./assets/GoogleChrome.png"
+											alt="Google Chrome Icon"
+											loading="lazy"
+										/>
+										<h3 class="item__title">1. Google Chrome</h3>
+										<p class="item__description">
+											Chrome va a ser
+											<span>el navegador que utilizaremos en el curso</span> por
+											su extenso soporte de nuevos estándares y herramientas de
+											desarrollo avanzadas y de amigable uso.
+										</p>
+									</div>
+									<div class="item" id="visual_studio">
+										<img
+											class="item__img"
+											src="./assets/VisualStudioCode.png"
+											alt="Visual Studio Icon"
+											loading="lazy"
+										/>
+										<h3 class="item__title">2. Visual Studio Code</h3>
+										<p class="item__description">
+											Visual Studio Code es el
+											<span
+												>editor de texto más popular y potente del mercado</span
+											>
+											actualmente, su fácil uso y la capacidad de extenderlo por
+											medio de plugins lo hace el complemento perfecto para
+											cualquier programador sin importar el lenguaje en el que
+											se desemvuelva.
+										</p>
+									</div>
+									<div class="item" id="figma">
+										<img
+											class="item__img"
+											src="./assets/Figma.png"
+											alt="Figma Icon"
+											loading="lazy"
+										/>
+										<h3 class="item__title">3. Figma</h3>
+										<p class="item__description">
+											Figma es una la herramienta más popular en la actualidad
+											para entregar diseños a los desarrolladores para su
+											implementación por su <span>fácil uso</span> porque puede
+											ser usado directamente desde el navegador.
+										</p>
+									</div>
+									<div class="item" id="github">
+										<img
+											class="item__img"
+											src="./assets/GitHub.png"
+											alt="GitHub Icon"
+											loading="lazy"
+										/>
+										<h3 class="item__title">4. GitHub</h3>
+										<p class="item__description">
+											Así como en Facebook te encuentran tus amigos, en Github
+											te encuentran otras programadoras y programadores de todo
+											el mundo, en vez de subir fotos de tus viajes aquí subes
+											tu código y puedes elegir hacerlo “open source” o
+											guardarlo de manera privada, Github será esencial para
+											almacenar tu futuro portafolio.
+										</p>
+									</div>
+								</div>
+							</section>
+							<div class="quote">
+								<div class="quote__wrapper">
+									<blockquote>
+										“Este es el inicio de tu carrera como Desarrollador de
+										Software”
+									</blockquote>
+									<p>- Obed Paz</p>
+								</div>
 							</div>
 						</div>
-					</section>
-				</div>
+					</div>
+				</main>
 			</div>
-		</main>
+		</div>
 	</body>
 </html>
