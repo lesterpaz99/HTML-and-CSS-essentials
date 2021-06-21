@@ -215,6 +215,8 @@ body {
   gap: 1.6rem;
   -webkit-margin-before: 2.4rem;
   margin-block-start: 2.4rem;
+  -webkit-margin-after: 4rem;
+  margin-block-end: 4rem;
 }
 .section3__item .item__title {
   color: #fffffe;
@@ -225,6 +227,95 @@ body {
 .section3__item ul li {
   -webkit-margin-after: 1.6rem;
   margin-block-end: 1.6rem;
+}
+
+.contact {
+  -webkit-margin-after: 4rem;
+  margin-block-end: 4rem;
+}
+.contact .mail-link {
+  -webkit-margin-after: 4rem;
+  margin-block-end: 4rem;
+}
+.contact .mail-link span a {
+  color: #eebbc3;
+  text-decoration: underline;
+}
+
+.form__title {
+  color: #fffffe;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.92rem;
+  -webkit-margin-after: 1.6rem;
+  margin-block-end: 1.6rem;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 2.4rem;
+  -webkit-margin-after: 4rem;
+}
+.form__input, .form__btn {
+  padding: 1.2rem 1.6rem;
+  border-radius: 0.8rem;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+.form__input {
+  border: 1px solid #fffffe;
+  color: #fffffe;
+  background-color: transparent;
+}
+.form__btn {
+  font-weight: 700;
+  color: #232946;
+  background-color: #eebbc3;
+  border: none;
+}
+.form__input::-webkit-input-placeholder {
+  font-family: "Montserrat", sans-serif;
+  color: #fffffe;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+.form__input::-moz-placeholder {
+  font-family: "Montserrat", sans-serif;
+  color: #fffffe;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+.form__input:-ms-input-placeholder {
+  font-family: "Montserrat", sans-serif;
+  color: #fffffe;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+.form__input::-ms-input-placeholder {
+  font-family: "Montserrat", sans-serif;
+  color: #fffffe;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+.form__input::placeholder {
+  font-family: "Montserrat", sans-serif;
+  color: #fffffe;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
 }
 
 @media screen and (min-width: 1024px) {
