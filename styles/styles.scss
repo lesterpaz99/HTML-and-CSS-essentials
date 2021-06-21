@@ -163,10 +163,15 @@ body {
 	}
 }
 
-.concepts-section__title {
-	@include titles(700, 3.2rem, 3.9rem);
+.concepts-section {
+	-webkit-margin-after: 4rem;
+	margin-block-end: 4rem;
 	-webkit-margin-before: 4rem;
 	margin-block-start: 4rem;
+
+	&__title {
+		@include titles(700, 3.2rem, 3.9rem);
+	}
 }
 
 .concept__items {
@@ -198,6 +203,36 @@ body {
 	border-radius: 0.8rem;
 	-webkit-box-shadow: -1rem 1rem 0 0 #abaaf6;
 	box-shadow: -1rem 1rem 0 0 #abaaf6;
+}
+
+.section3 {
+	&__title {
+		@include titles(600, 3.2rem, 3.9rem);
+		-webkit-margin-after: 2.4rem;
+		margin-block-end: 2.4rem;
+	}
+}
+
+.section3__item {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	gap: 1.6rem;
+	@extend .text-format;
+	-webkit-margin-before: 2.4rem;
+	margin-block-start: 2.4rem;
+
+	.item__title {
+		@include titles(400, 2.4rem, 2.92rem);
+	}
+	ul li {
+		-webkit-margin-after: 1.6rem;
+		margin-block-end: 1.6rem;
+	}
 }
 
 @media screen and (min-width: 1024px) {

@@ -105,7 +105,7 @@ body {
 }
 
 /* common styles for text */
-.text-format, .concept__description, .item__description {
+.text-format, .section3__item, .concept__description, .item__description {
   font-size: 1.7rem;
   font-weight: 400;
   line-height: 2.4rem;
@@ -152,13 +152,17 @@ body {
   padding: 1.6rem;
 }
 
+.concepts-section {
+  -webkit-margin-after: 4rem;
+  margin-block-end: 4rem;
+  -webkit-margin-before: 4rem;
+  margin-block-start: 4rem;
+}
 .concepts-section__title {
   color: #fffffe;
   font-weight: 700;
   font-size: 3.2rem;
   line-height: 3.9rem;
-  -webkit-margin-before: 4rem;
-  margin-block-start: 4rem;
 }
 
 .concept__items {
@@ -189,6 +193,38 @@ body {
   border-radius: 0.8rem;
   -webkit-box-shadow: -1rem 1rem 0 0 #abaaf6;
   box-shadow: -1rem 1rem 0 0 #abaaf6;
+}
+
+.section3__title {
+  color: #fffffe;
+  font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 3.9rem;
+  -webkit-margin-after: 2.4rem;
+  margin-block-end: 2.4rem;
+}
+
+.section3__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1.6rem;
+  -webkit-margin-before: 2.4rem;
+  margin-block-start: 2.4rem;
+}
+.section3__item .item__title {
+  color: #fffffe;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.92rem;
+}
+.section3__item ul li {
+  -webkit-margin-after: 1.6rem;
+  margin-block-end: 1.6rem;
 }
 
 @media screen and (min-width: 1024px) {
