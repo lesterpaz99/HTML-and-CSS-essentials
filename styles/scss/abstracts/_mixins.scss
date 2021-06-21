@@ -1,0 +1,8 @@
+@use './colors';
+
+@mixin titles($weigh, $size, $line-height) {
+	color: colors.$titles_color;
+	font-weight: $weigh;
+	font-size: $size;
+	line-height: $line-height;
+}

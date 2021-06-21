@@ -1,0 +1,16 @@
+@use '../abstracts/abstracts';
+
+.quote {
+	background-color: #d4939d;
+	border-radius: 0.8rem;
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: 3.2rem;
+	color: abstracts.$background_color;
+	-webkit-margin-before: 4rem;
+	margin-block-start: 4rem;
+
+	&__wrapper {
+		padding: 1.6rem;
+	}
+}

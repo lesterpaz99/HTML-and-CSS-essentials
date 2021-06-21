@@ -1,0 +1,20 @@
+@use '../abstracts/abstracts';
+
+.contact {
+	-webkit-margin-after: 4rem;
+	margin-block-end: 4rem;
+	.mail-link {
+		-webkit-margin-after: 4rem;
+		margin-block-end: 4rem;
+	}
+	.mail-link span a {
+		color: abstracts.$secondary_color;
+		text-decoration: underline;
+	}
+}
+
+.form__title {
+	@include abstracts.titles(400, 2.4rem, 2.92rem);
+	-webkit-margin-after: 1.6rem;
+	margin-block-end: 1.6rem;
+}

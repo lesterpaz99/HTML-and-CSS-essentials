@@ -1,0 +1,24 @@
+@use '../abstracts/abstracts';
+@use '../base/global';
+
+.item {
+	-webkit-margin-before: 4rem;
+	margin-block-start: 4rem;
+
+	&__img,
+	&__title,
+	&__description {
+		-webkit-margin-after: 1.6rem;
+		margin-block-end: 1.6rem;
+	}
+
+	&__title {
+		@include abstracts.titles(600, 2.4rem, 2.92rem);
+	}
+	&__description {
+		@extend .text-format;
+	}
+	&__description span {
+		font-weight: bold;
+	}
+}

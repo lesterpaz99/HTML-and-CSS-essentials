@@ -1,0 +1,24 @@
+@use '../abstracts/abstracts';
+
+.main {
+	max-inline-size: 636px;
+	margin-inline: auto;
+}
+
+.main-section {
+	-webkit-border-before: solid 1px rgba(97, 97, 97, 0.2);
+	border-block-start: solid 1px rgba(97, 97, 97, 0.2);
+	-webkit-padding-before: 4rem;
+	padding-block-start: 4rem;
+	inline-size: 100%;
+
+	&__title {
+		@include abstracts.titles(700, 3.2rem, 3.9rem);
+		-webkit-margin-after: 1.6rem;
+		margin-block-end: 1.6rem;
+	}
+	&__description {
+		font-size: 1.7rem;
+		line-height: 2.4rem;
+	}
+}

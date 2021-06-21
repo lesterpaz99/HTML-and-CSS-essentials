@@ -1,0 +1,29 @@
+// import fonts, variables and mixins from abstracts
+@use './base/global';
+@use './base/base';
+@use './layout/header';
+@use './layout/main';
+@use './components/setup-items';
+@use './layout/section';
+@use './layout/section3';
+@use './layout/contact';
+@use './layout/footer';
+
+@media screen and (min-width: 1024px) {
+	.page-content {
+		display: grid;
+		grid-template-columns: 30.6rem 63.6rem;
+		gap: 2.4rem;
+	}
+
+	.main-section {
+		-webkit-padding-before: 0;
+		padding-block-start: 0;
+		-webkit-padding-after: 4rem;
+		padding-block-end: 4rem;
+		-webkit-border-before: none;
+		border-block-start: none;
+		-webkit-border-after: solid 1px rgba(97, 97, 97, 0.2);
+		border-block-end: solid 1px rgba(97, 97, 97, 0.2);
+	}
+}

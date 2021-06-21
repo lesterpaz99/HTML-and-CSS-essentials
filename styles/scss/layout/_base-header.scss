@@ -1,0 +1,21 @@
+@use '../abstracts/abstracts';
+
+.header {
+	color: inherit;
+	max-block-size: 306px;
+	-webkit-margin-after: 2rem;
+	margin-block-end: 2rem;
+
+	&__wrapper {
+		background-color: abstracts.$background_color;
+		position: relative;
+		-webkit-padding-after: 1rem;
+		padding-block-end: 1rem;
+	}
+	&__title {
+		@include abstracts.titles(bold, 1.4rem, 2.4rem);
+		text-transform: uppercase;
+		-webkit-margin-after: 2.4rem;
+		margin-block-end: 2.4rem;
+	}
+}

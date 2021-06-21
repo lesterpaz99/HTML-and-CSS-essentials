@@ -1,0 +1,12 @@
+@use '../abstracts/abstracts';
+
+.concepts-section {
+	-webkit-margin-after: 4rem;
+	margin-block-end: 4rem;
+	-webkit-margin-before: 4rem;
+	margin-block-start: 4rem;
+
+	&__title {
+		@include abstracts.titles(700, 3.2rem, 3.9rem);
+	}
+}

@@ -1,0 +1,9 @@
+@use '../abstracts/abstracts';
+
+.section3 {
+	&__title {
+		@include abstracts.titles(600, 3.2rem, 3.9rem);
+		-webkit-margin-after: 2.4rem;
+		margin-block-end: 2.4rem;
+	}
+}
