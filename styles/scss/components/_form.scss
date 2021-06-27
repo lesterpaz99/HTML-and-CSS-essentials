@@ -26,6 +26,10 @@
 		color: $titles_color;
 		background-color: transparent;
 	}
+	&__input:focus {
+		-webkit-box-shadow: 2px 2px 0 4px rgba(0, 0, 0, 0.4);
+		box-shadow: 2px 2px 0 4px rgba(0, 0, 0, 0.4);
+	}
 	&__btn {
 		font-weight: 700;
 		color: $background_color;
@@ -35,6 +39,7 @@
 	&__btn:hover {
 		-webkit-box-shadow: 2px 2px 0 4px rgba(0, 0, 0, 0.4);
 		box-shadow: 2px 2px 0 4px rgba(0, 0, 0, 0.4);
+		cursor: pointer;
 	}
 	&__input::-webkit-input-placeholder {
 		font-family: $font-family;

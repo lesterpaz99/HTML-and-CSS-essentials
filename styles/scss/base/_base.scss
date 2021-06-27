@@ -19,3 +19,11 @@ body {
 	margin-inline: auto;
 	max-inline-size: 96.6rem;
 }
+
+::-moz-selection {
+	background-color: abstracts.$titles_color;
+}
+
+::selection {
+	background-color: abstracts.$titles_color;
+}

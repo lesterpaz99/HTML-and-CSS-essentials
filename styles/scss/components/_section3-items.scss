@@ -24,4 +24,8 @@
 		-webkit-margin-after: 1.6rem;
 		margin-block-end: 1.6rem;
 	}
+
+	ul li::marker {
+		font-size: 2.4rem;
+	}
 }
